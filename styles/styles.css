@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    color: white;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    text-shadow: #FC0 1px 0 10px;
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+    text-shadow: #FC0 1px 0 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+    color: white;
+    font-style: italic;
+}
+p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    padding: 16px; 
+}
+
+img {
+    width: 500px;
+}
+
+
+  /* Header section */
+
+
+header {
+    background-color: lightskyblue;
+    padding: 48px 0;
+}
+
+.head__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+  /* Distracted section */
+
+
+#distracted {
+    background-color: lightgreen;
+    padding: 48px 0;
+}
+
+.distracted__p {
+    color: blue;
+    font-family: Lato;
+}
+
+
+/* Injury Section */
+
+
+#injury {
+    background-color: lightcoral;
+    padding: 48px 0;
+}
+
+.injury__p {
+    color: #FC0;
+}
+
+
+/* Contact section */
+
+
+#contact {
+    background-color: beige;
+    padding: 48px 0;
+}
+
+label {
+    font-size: 36px;
+}
+
+input {
+    height: 36px;
+    font-size: 24px;
+}
+
+textarea {
+   height: 200px; 
+   font-size: 24px;
+}
+
+.contact__form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+/* Footer section */
+
+
+footer {
+    background-color: lightgray;
+    padding: 48px 0;
+    height: 10vh;
+}
+
+.footer__p {
+    display: flex;
+    justify-content: center;
+}
